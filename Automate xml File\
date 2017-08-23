@@ -1,0 +1,8 @@
+
+Following steps have taken on the testing process:
+
+1. compare the rpt_cms_header target table Header with xml file 
+2. compate the rpt_radvivas_hdr target table header with xml file 
+3. compare the rpt_radvivas_stratum  target table Data with xml file
+
+See the attachment of result. 
