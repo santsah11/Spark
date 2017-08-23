@@ -1,0 +1,9 @@
+Currently we are using these 2 different tables’ with the identical table structures serving the same purpose. All we need to do is cut down one of the table and update the corresponding objects.
+ 
+enc_edge.hbx_edge_cms_issuer_prcs iss
+enc_edge.hbx_edge_cms_claim_issuer_prcs iss
+ 
+Action Item:
+DELETE the existing table hbx_edge_cms_issuer_prcs
+UPDATE the existing table name of ‘hbx_edge_cms_claim_issuerprcs’ -à hbx_edgecms_issuer_prcs
+Update all of the DB objects & ETL jobs which are using these tables to point to the correct table name and right joins.
