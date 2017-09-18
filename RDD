@@ -1,0 +1,28 @@
+with Spark wee can process the data and... this procssing engine
+Spark has major 4 kind of libaray; 
+  1.saprk sql 
+    2.saprk streming rwald time 
+      3.Mlib Machine learnign 
+        4. Grphx Graph procssing ( linking scial graph and connecting , page ranking all)
+
+****************************************
+saprk core enginf is prety much similar to the : yarn map reduce.. 
+Spark RDD is another Libarary that similar to the pig scripting languaege  44
+it is also part of core engine..  we can go more detail abou the that.
+where ralation.. and all... 
+Spark strewam and flume is kind connect you the inject hte data.
+********************************88 RDD is libarary... 
+  how to construct the RDD.. 
+  1.by Parallelizing exsiting pyton collection or other.. 
+  2.by transforming an existing RDD ..you can create the another RDD  and apply the transformation .
+  3.from files in HDFS or any other source system. 
+   RDD has two kind of thing  mostly we can do.. Transformation and Actions 
+    RDD 
+     1 . Creat  from existing source 
+      2.  apply transformationn
+       3. take action .. 
+       
+       
+   
+  
+ 
